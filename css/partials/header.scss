@@ -1,0 +1,84 @@
+/*======================= Header ============================================ */
+header{
+  height:18vh;
+}
+ .blueContainer{
+   display: block;
+   width: 100%;
+   background:$header-blue;
+   height: 25%;
+   clear: both;
+ }
+ .socialIcons {
+   width: 130px;
+   margin-left: 20px;
+   img{
+     width:20px;
+     margin-bottom: 2px;
+   }
+ }
+ span.btn-info.donateButton{
+   display: block;
+   background: $donate-blue;
+   border-radius: 0;
+   width:130px;
+   height:25px;
+   line-height: 12px;
+   border-color: $donate-blue;
+ }
+
+ span.btn-info.socialButton{
+   display: block;
+   background: $social-grey;
+   border-radius: 0;
+   width:20px;
+   height:20px;
+   margin: 4px 4px 0 0;
+   padding: 0 0 0 0;
+   float: left;
+ }
+
+ .orangeContainer{
+   display: block;
+   width: 100%;
+   height: 75%;
+   background: $nav-orange;
+   clear: both;
+ }
+ .navbar-default{
+   background: none;
+   border-color: transparent;
+   .navbar-nav{
+     .active{
+       a{
+         background: transparent;
+       }
+     }
+     li{
+       a{
+         color:#000;
+       }
+     }
+   }
+ }
+ .navbar-brand{
+   display: none;
+ }
+ .navbar-nav{
+   background: #fff;
+ }
+ .donateArea{
+   //display: block;
+   //width: 100%;
+   //height:32px;
+ }
+ .navbar-default .navbar-toggle .icon-bar{
+   background: #fff;
+ }
+
+ .logo{
+   img{
+     width:60px;
+     margin: 9px 0 0 0;
+   }
+ }

@@ -1,0 +1,212 @@
+/* responsive settings */
+$screen-xl-min: 1600px;
+$screen-lg-min: 1200px;
+$screen-md-min: 992px;
+$screen-sm-min: 768px;
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Sass Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+  span.btn-info.donateButton{
+    float: right;
+  }
+  .socialIcons{
+    float: right;
+  }
+  .logo{
+    img{
+      width: 90px;
+    }
+  }
+  .navbar-nav{
+    background: transparent;
+  }
+  .nav{
+    margin-top:58px;
+    li{
+      a{
+        padding:10px 4px;
+        font-size: 14px;
+      }
+    }
+  }
+  #mainPhoto{
+    h1{
+      font-size: 46px;
+      padding: 230px 15px;
+    }
+  }
+  .arrows{
+    top:-85px;
+    a{
+      font-size: 16px;
+    }
+  }
+  .text-side{
+    padding: 0px 31px 90px 51px;
+    margin-top: 0;
+    p{
+      font-size: 14px;
+    }
+  }
+  .homePost {
+    h2{
+      a{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+      }
+    }
+  }
+  .torn-angle{
+    margin-top: -150px;
+    position: relative;
+    z-index: 9999;
+    display: block;
+    width: 100%;
+  }
+  #donate{
+    height: 350px;
+    h2{
+      padding: 50px 20px 0 70px;
+    }
+    a.btn-main{
+      width: 210px;
+      font-size: 28px;
+      padding: 8px;
+    }
+  }
+  #sponsors{
+    .container{
+      //margin-top:100px;
+    }
+    h2{
+      font-size: 28px;
+      margin-top: 80px;
+    }
+  }
+  a.btn-alt{
+    width: 200px;
+    font-size: 18px;
+    margin: 40px auto 70px auto;
+  }
+  .footerLogo{
+    img{
+      width: 100px;
+    }
+  }
+  .darkOrangeContainer{
+    h1{
+      font-size: 18px;
+      margin-top: -8px;
+    }
+  }
+  ul#menu-footer-menu-1{
+    li{
+      padding: 0 15px 0 0;
+    }
+  }
+  .stay-connected{
+
+    h5{
+      font-size: 16px;
+      position: relative;
+      top:14px;
+
+    }
+  }
+  .footerSocial{
+    display: block;
+    float: right;
+    span.btn-info.socialButton{
+      margin: 24px 15px 0 0;
+    }
+  }
+
+
+}
+/* Medium devices (desktops, 992px and up) =====================================================================================================*/
+@media (min-width: $screen-md-min) {
+  .nav{
+    li{
+      a{
+        padding: 10px 12px;
+      }
+    }
+  }
+  span.btn-info.donateButton{
+    width: 220px;
+    height: 34px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .socialIcons{
+    width: 150px;
+    span.btn-info.socialButton{
+      width: 25px;
+      height: 25px;
+      img{
+        width: 25px;
+      }
+    }
+  }
+  ul#menu-footer-menu-1 {
+    li {
+      padding: 0px 30px 0 0;
+    }
+  }
+  .text-side{
+    p{
+      font-size: 18px;
+    }
+  }
+}
+/* Large devices (large desktops, 1200px and up)============================================================================================ */
+@media (min-width: $screen-lg-min) {
+  .nav{
+    li{
+      a{
+        padding: 10px 19px;
+        font-size: 16px;
+      }
+    }
+  }
+  .text-side{
+    p{
+      font-size: 24px;
+    }
+  }
+  ul#menu-footer-menu-1 li {
+    padding: 0px 45px 0 0;
+    a{
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  }
+  .torn-angle{
+    margin-top: -180px;
+  }
+  .footerLogo{
+    img{
+      width: 116px;
+    }
+  }
+  .stay-connected{
+    h5{
+      font-size: 18px;
+    }
+  }
+  .footerSocial{
+    span.btn-info.socialButton{
+      margin: 24px 24px 0 0;
+    }
+  }
+}
+/* Large devices (large desktops, 1600px and up)============================================================================================ */
+@media (min-width: $screen-xl-min) {
+  .torn-angle {
+    margin-top: -215px;
+  }
+}

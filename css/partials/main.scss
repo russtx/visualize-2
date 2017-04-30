@@ -1,0 +1,196 @@
+.heroContainer{
+  display: block;
+  width: 100%;
+}
+#main-container{
+  //overflow: hidden;
+}
+#mainPhoto{
+  display: block;
+  max-height: 100%;
+  margin-left: 0 auto;
+  height: 82vh;
+  background-size: cover;
+  background-size: cover;
+  background-position-x: 53%;
+  background-repeat: no-repeat;
+  h1{
+
+    color:#fff;
+    font-weight: 900;
+    margin-top: 0;
+    padding: 145px 15px;
+    text-align: center;
+  }
+}
+.arrows{
+  position: relative;
+  text-align: center;
+  top:-42px;
+  a{
+    color: #000;
+  }
+}
+#mission{
+  background: $donate-blue;
+  position: relative;
+  z-index: 10;
+}
+.contentContainer{
+  //background: $donate-blue;
+}
+.text-side{
+  color: #fff;
+  padding: 40px 30px;
+  //margin-top: -30px;
+}
+.btn-bordered{
+  display: block;
+  border: #000 solid 1px;
+  text-align: center;
+  color:#fff;
+  padding: 5px;
+  margin: 10px 0 0 0;
+}
+.homePost{
+  min-height: 200px;
+
+  h2{
+    font-size: 15px;
+    background: $nav-red;
+    padding: 4px 10px;
+    margin: 0 0 22px 0;
+    min-height: 56px;
+    a{
+      color: #fff;
+    }
+  }
+  img{
+    width: 100%;
+  }
+}
+#img-btns{
+  display: block;
+  background-color: #fff;
+  //background-image: url(../images/torn-angle.png);
+  //background-repeat: no-repeat;
+
+  margin-top: 30px;
+}
+.torn-angle{
+  display: none;
+}
+
+#donate{
+  display: block;
+  background: url(../images/torn-teal-bg.png);
+  background-size: cover;
+  height: 100%;
+  padding: 30px 15px;
+  h2{
+    color: #fff;
+  }
+}
+a.btn-main{
+  display: block;
+  background: $nav-red;
+  color: #fff;
+  width: 140px;
+  text-align: center;
+  font-size: 15px;
+  padding:5px;
+  margin: 30px auto;
+
+}
+#sponsors{
+  display: block;
+  h2{
+    color:$text-orange;
+    text-align: center;
+    font-size: 15px;
+    padding:5px;
+  }
+  a.btn-alt{
+    display: block;
+    background: $donate-blue;
+    color: #fff;
+    width: 140px;
+    text-align: center;
+    font-size: 15px;
+    padding:5px;
+    margin: 30px auto;
+  }
+}
+/* ============carousel ======================*/
+
+.multi-item-carousel{
+  .carousel-inner{
+    > .item{
+      transition: 500ms ease-in-out left;
+
+    }
+    .active{
+
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+}
+.carousel-inner>.item.active{
+  left:12%;
+}
+.carousel-control.left, .carousel-control.right{
+  background: transparent;
+}
+.carousel-control{
+  color:#000;
+  text-shadow: none;
+}
+/* ======================== about =================*/
+.darkOrangeContainer{
+  display: block;
+  width: 100%;
+  height: 40px;
+  background: $nav-red;
+  h1{
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    margin-top:13px;
+  }
+}
+.mission-2-btns{
+  .btn-bordered {
+      display: block;
+      border:$header-blue solid 1px;
+      background: $header-blue;
+      text-align: center;
+      color: #fff;
+      padding: 5px;
+      margin: 10px 0 0 0;
+  }
+}
